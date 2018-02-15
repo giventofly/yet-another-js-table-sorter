@@ -1,17 +1,25 @@
 # yet-another-sort-table
 
+* you can click on the header and sort.
+
+
 todo:
 a better faq/readme.
 
-include yajts.js and jquery in your html.
+include yajts.js, style.css and jquery in your html.
+check index.html for an example.
 
-configuration:
+#configuration
 
-edit the object yajtsConf using this parameters:
+ * add to the table a class, and another class for the tbody.
+ * choose the sorting algorythim using data-sort="sort-function" in every td in the head you want to sort.
 
-fixedColumns, number of columns to fix
+#edit the object yajtsConf using this parameters:
 
-you can add other methods to compare (date, text, number/values by default) by adding an object in the compareMethods
+* fixedColumns
+number of columns to fix
+
+* you can add other methods to compare (date, text, number/values by default) by adding an object in the compareMethods
 
   //this will not work, just a generic example
   nameCompareFunction: function(param1, param2) {
@@ -19,11 +27,11 @@ you can add other methods to compare (date, text, number/values by default) by a
   }
 
 
-define table class to define
+ * define table class to define
 
 tableToSort = '.class'
 
-define class of table body
+* define class of table body
 
-tableBodyClass = '.class';
+ tableBodyClass = '.class';
 
