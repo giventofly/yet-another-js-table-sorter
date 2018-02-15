@@ -3,18 +3,18 @@
 * you can click on the header and sort.
 
 
-todo:
+$ todo:
 a better faq/readme.
 
 include yajts.js, style.css and jquery in your html.
 check index.html for an example.
 
-#configuration
+# configuration
 
  * add to the table a class, and another class for the tbody.
  * choose the sorting algorythim using data-sort="sort-function" in every td in the head you want to sort.
 
-#edit the object yajtsConf using this parameters:
+# edit the object yajtsConf using this parameters:
 
 * fixedColumns
 number of columns to fix
