@@ -1,0 +1,63 @@
+table {
+  position: relative;
+  width: 1280px;
+  background-color: #aaa;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+/*thead*/
+
+thead {
+  position: relative;
+  display: block;
+   width: 1280px;
+  overflow: visible;
+}
+
+/*tbody*/
+
+tbody {
+  position: relative;
+  display: block;
+  width: 1280px;
+  height: 300px;
+  overflow: scroll;
+}
+
+tbody tr td,
+thead tr td {
+  background-color: #fff;
+}
+
+
+td {
+  min-width: 150px;
+}
+
+
+/* style and sorter */
+
+thead td:hover {
+  background-color: chocolate;
+  cursor: pointer;
+}
+
+
+/* Arrows for table sorting */
+
+table td.yajts-ascending:after {
+  font-size: 60%;
+  content: '\25B2';
+  float: left;
+  padding: 4px 5px 0px 0px;/* Table styles */
+
+}
+
+table td.yajts-descending:after {
+  font-size: 60%;
+  content: '\25BC';
+  float: left;
+  padding: 4px 5px 0px 0px;
+}
+
